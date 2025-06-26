@@ -1,0 +1,32 @@
+
+@media (min-width: 600px){
+    .navbar .dropdown:hover .dropdown-menu{
+        display: block;
+        margin-top: 0;
+    }
+    .dropdown-toggle:hover{
+        background-color: white;
+        border-radius: 15px ;
+    }
+}
+
+.dropdown-toggle{
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #f6fff8;
+    color: black;
+}
+
+body{
+    background-color: #f6fff8;
+}
+
+.card{
+    border-radius: 30px;
+}
